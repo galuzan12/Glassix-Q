@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+h1{
+  color:#fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.city_text{
+    font-size: 24px;
+}
+
+h1.country_text {
+    position: relative;
+}
+
+.country_text:after {
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 2px;
+    background: #fbfbfbb8;
+    bottom: -6px;
+    left: -50% !important;
+    margin-left: calc( 100% - 120px );
+}
